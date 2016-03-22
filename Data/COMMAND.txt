@@ -1,0 +1,8 @@
+00 Get-Update GU
+11 Get-Tool GT Get
+12 Get-Example GE
+21 Del-Tool DT Del
+22 Del-Example DE
+31 Find-Tool FT Find
+32 Find-Example FE
+4 Ver version
