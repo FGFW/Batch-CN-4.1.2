@@ -1,3 +1,5 @@
+这里的版本比官方的版本修改一些小问题,每次使用bcn gt xx下载都同步list.txt.
+
 4.1.2
 首发地址:http://www.bathome.net/thread-32322-1-1.html
 
