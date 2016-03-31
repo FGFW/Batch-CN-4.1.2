@@ -38,15 +38,11 @@ if "%Task%"=="00" (
         call :show !LIST!.txt
         goto :eof
     ) else (
-        for %%i in ("%ProgramPath%\Lists\TIME") do (
             for %%j in ("%ProgramPath%\Lists\!LIST!.txt") do (
-                if not "%%~ti"=="%%~tj" (
                     wget -O "%ProgramPath%\Lists\!LIST!.txt" -q "http://batch-cn.qiniudn.com/list/!LIST:tool=tool.@version!.txt?%random%+%date%+%time%"
                     echo;>"%ProgramPath%\Lists\TIME"
-                    )
                 
             )
-        )
         set "Arg=%~2"
         set "Arg=!Arg:\=/!"
         if "!Arg:/=!"=="!Arg!" (
